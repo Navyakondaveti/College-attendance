@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Attendance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Student Attendance</h1>
+    </header>
+
+    <div class="container">
+        <label>Student Name:</label>
+        <input type="text" id="studentName" placeholder="Enter Name">
+
+        <label>Attendance Status:</label>
+        <select id="status">
+            <option value="Present">Present</option>
+            <option value="Absent">Absent</option>
+        </select>
+
+        <button onclick="markAttendance()">Submit</button>
+
+        <h3 id="result"></h3>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
